@@ -1,0 +1,28 @@
+@charset "UFT-8";
+
+html{
+    font-size: 100%;
+}
+
+img{
+    max-width: 100%;
+}
+li{
+    list-style: none;
+}
+.container{
+    width: 100vh;
+    margin: 0 auto;
+}
+#header{
+    padding-top:55px;
+    padding-bottom: 10px;
+}
+#header .header_logo img{
+    width: 150px;
+}
+
+#mainvisual{
+    width: 100%;
+}
+
