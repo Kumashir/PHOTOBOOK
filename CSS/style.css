@@ -7,16 +7,19 @@ html{
 img{
     max-width: 100%;
 }
-li{
-    list-style: none;
+.section_title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
 }
 .container{
-    width: 100vh;
     margin: 0 auto;
+    text-align: center;
 }
 #header{
     padding-top:55px;
     padding-bottom: 10px;
+    text-align: left;
 }
 #header .header_logo img{
     width: 150px;
@@ -24,5 +27,32 @@ li{
 
 #mainvisual{
     width: 100%;
+    margin-bottom: 50px;
+}
+#index{
+    padding: 80px;
+    background-color: #ecebeb;
+    margin-bottom: 50px;
+}
+#index ol{
+    max-width: 800px;
+    margin: 20px auto 0 auto;
+    line-height: 3;
+    border: 1px solid #000;
 }
 
+#design ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#design li{
+    width: 35%;
+}
+#desugn ul li img{
+    margin-bottom: 20px;
+}
+#detail .content{
+    display: flex;
+
+}
